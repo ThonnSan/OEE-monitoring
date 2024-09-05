@@ -224,7 +224,7 @@ app.layout = html.Div([
     ], style={'width': '50%', 'display': 'inline-block'}),
     html.Div([
         dcc.Graph(
-        id='bar-graph',
+        id='bar-graph2',
         figure={
             'data': [
                 go.Bar(
@@ -258,7 +258,7 @@ app.layout = html.Div([
         ], style={'width': '50%', 'display': 'inline-block'}),
         html.Div([
         dcc.Graph(
-        id='bar-graph',
+        id='bar-graph3',
         figure={
             'data': [
                 go.Bar(
@@ -293,7 +293,7 @@ app.layout = html.Div([
 
     html.Div([
         dcc.Graph(
-        id='bar-graph',
+        id='bar-graph4',
         figure={
             'data': [
                 go.Bar(
@@ -324,7 +324,7 @@ app.layout = html.Div([
         html.Div([
     html.Div(
         dcc.Graph(
-            id='bar-graph',
+            id='bar-graph5',
             figure={
                 'data': [
                     go.Bar(
